@@ -21,10 +21,12 @@
         É só dar uma olhada nas versões a
         seguir, com um navegador com mais
         espaço interno.</p>    
-    <source media="(min-width: 1200px)" srcset="image/paisagem-g.png" type="image/png">
-    <source media="(min-width: 740px)" srcset="image/paisagem-m.png" type="image/png">
-    <source media="(min-width: 265px)" srcset="image/paisagem-p.png" type="image/png">
-    <img src="image/paisagem-g.png" alt="Imagem flexível">  
+
+    <picture>
+        <source media="(max-width: 1200px)" srcset="image/paisagem-p.png" type="image/png">
+        <source media="(max-width: 740px)" srcset="image/paisagem-m.png" type="image/png">       
+        <img src="image/paisagem-g.png" alt="Imagem flexível">
+    </picture>  
     
 </body>
 </html>
